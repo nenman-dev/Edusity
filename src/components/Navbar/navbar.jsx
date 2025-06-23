@@ -1,13 +1,22 @@
 import React from 'react'
-import './navbar.css'
+import './Navbar.css'
+import logo from '../../assets/edusity_assets/logo.png'
 
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav>
-        <img scr= "" alt=""/>
+        <img scr= {logo} alt=""/>
+        <ul>
+          <li>Home</li>
+          <li>Program</li>
+          <li>About us</li>
+          <li>Campus</li>
+          <li>Testimonials</li>
+          <li>Contact us</li>
+        </ul>
     </nav>
   )
 }
 
-export default navbar
+export default Navbar
