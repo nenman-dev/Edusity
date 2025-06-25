@@ -1,3 +1,3 @@
 HEAD
 # Edusity
-This is an assignment on creating a webpage using React.
+This is a website created using React.
